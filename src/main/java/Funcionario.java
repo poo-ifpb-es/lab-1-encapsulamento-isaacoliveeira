@@ -1,7 +1,7 @@
 public class Funcionario {
-    public String nome;
-    public String sobrenome;
-    public float salario;
+    private String nome;
+    private String sobrenome;
+    private float salario;
 
     public Funcionario(String nome, String sobrenome, float salario){
         this.nome = nome;
